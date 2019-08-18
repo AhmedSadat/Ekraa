@@ -1,4 +1,4 @@
-const url = 'http://www.orimi.com/pdf-test.pdf';
+const url = 'docs/pdf.pdf';
 
 let pdfDoc = null,
   pageNum = 1,
