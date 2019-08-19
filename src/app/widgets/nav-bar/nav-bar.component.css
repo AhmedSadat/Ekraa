@@ -1,0 +1,12 @@
+.nav-item>span{
+
+  color: white;
+
+}
+.navbar{
+   background-color: rgba(0,0,0,0.3);
+}
+
+.selected-item{
+   border-top: 2px solid white; border-bottom: 2px solid white;
+}

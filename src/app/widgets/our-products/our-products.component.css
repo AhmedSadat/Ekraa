@@ -1,0 +1,28 @@
+.hodler{
+  width:100vw;
+  background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../../../assets/images/Mask_Group_3.png");
+  color: #484848;
+
+}
+
+.row{
+
+  justify-content: center;
+
+}
+
+.title{
+  align-items: center;
+  align-content: center;
+  text-align: center;
+   justify-content: center;
+
+}
+
+.subjects{
+  margin-top: 2vw;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+   justify-content: center;
+}

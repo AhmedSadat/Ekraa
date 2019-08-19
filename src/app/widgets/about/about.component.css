@@ -1,0 +1,36 @@
+.holder{
+
+  background-color: #242121;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  position:absolute;
+bottom:0;
+
+}
+.holder>*{
+  margin: 2vw
+}
+pre{
+
+  color: white;
+  margin: 2vw;
+  display: inline;
+}
+
+
+.subject-placeholder>p{
+  color: #707070;
+  font-size: 23px
+}
+
+
+.social-media-link{
+  color: #707070;
+  font-size: 23px;
+  font-weight: normal;
+}
+
+.heading-border{
+  border-bottom:  2px solid white;
+}

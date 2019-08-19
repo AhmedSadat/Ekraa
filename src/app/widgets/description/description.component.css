@@ -1,0 +1,23 @@
+.row{
+
+  background-image: url("../../../assets/images/Component4–1.png") ;
+
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.image, img{
+    margin: 2vw;
+
+}
+
+
+.desc{
+  margin: 2vw;
+
+  color: white
+}
