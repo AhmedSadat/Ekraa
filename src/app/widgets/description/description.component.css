@@ -8,12 +8,15 @@
     margin: 0;
 }
 .image, img{
-
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  margin-left: 6vw;
 }
 
 
 .desc{
   margin: 0;
+  margin-top: 2vw;
 
   color: white
 }
