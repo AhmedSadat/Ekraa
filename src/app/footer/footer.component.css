@@ -1,0 +1,205 @@
+.footer {
+    background-color: #343334;
+    padding: 50px ;
+    color: #fff8f8;
+   
+}
+
+/*start row1section*/
+.row1Content {
+    line-height: 20px ;
+}
+
+.row1Content h4 {
+
+    font-size: 40px ;
+    margin-bottom: 10px ;
+        
+}
+
+.row1Content p {
+    font-size: 25px; 
+}
+
+.footer .contacts {
+
+    margin-top: 40px
+}
+
+/*end row1section*/
+
+/*start row2section*/
+
+.col2Content hr {
+
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    background-image: linear-gradient(90deg, black, #fff8f8);
+    border-style: inset; 
+     border-width: 1px; 
+    width: 60% ;
+    border-radius: 50% ;
+    border-color: black ;
+    padding: 1px ;
+    
+}
+
+.iedit {
+      
+    margin-bottom: 100px ;
+}
+
+.iedit p {
+    margin-bottom: 4px ;
+    /* margin-left: 100px ; */
+}
+
+.col2Content .iedit img {
+
+    margin-right: 15px ;
+}
+
+.iedit span {
+
+    margin-left: 3px ;
+}
+
+.col2Content ul {
+
+
+        list-style-type: none;
+        margin-top: 15px ;
+       
+}
+
+.col2Content p , span {
+
+    
+    font-size: 20px ;
+    /* margin-bottom: 40px ; */
+    color: #CDCDCD ;
+    
+}
+
+.col2Content li p{
+
+    
+    margin-bottom: .2rem ;
+    
+}
+
+
+/* .col2Content li span {
+
+    margin-top: -10px ;
+} */
+
+/*end row2section*/
+
+/*start row2section*/
+   
+ .col3Content p {
+
+    font-size: 20px ;
+   
+ }
+
+ .col3Content hr {
+
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    background-image: linear-gradient(90deg, black, #fff8f8);
+    border-style: inset; 
+     border-width: 1px; 
+    width: 60% ;
+    border-radius: 50% ;
+    border-color: black ;
+    padding: 1px ;
+    
+}
+
+.col3Content .socialMedia {
+    color: #CDCDCD ;
+}
+
+
+
+/*end row3section*/
+
+
+/*start copyright section*/
+.copyright {
+
+    background-color: #484848 ;
+    padding: 30px ;
+    width: 100% ;
+    font-size: 20 px ;
+    color: #fff8f8 ;
+}
+/*end copyright section*/
+
+/*start media section*/
+
+@media (min-width : 0px) and (max-width : 768px){
+
+    .row1Content p{
+         
+        line-height: 30px ;
+
+    }
+
+    .iedit p,span {
+        
+        font-size: 14px ;
+    }
+
+    .col3Content h4 {
+        margin-top: 20px ;
+    }
+
+    .col2Content h4 {
+        margin-top: 20px ;
+    }
+  
+  }
+  
+  @media (min-width: 768px) and (max-width:991px) {
+  
+      
+    .iedit p,span {
+        
+        font-size: 18px ;
+    }
+    
+  }
+  
+  @media (min-width: 992px) and (max-width:1199px) {
+  
+  
+  }
+  
+  @media (min-width : 1200px){
+  
+  
+  }
+
+  @media (min-width : 992px) and (max-width : 1164px){
+
+      .col2Content p,span {
+          font-size: 15px ;
+      }
+  }
+
+  @media (min-width : 1200px) and (max-width : 1245px){
+
+      .col3Content .contactUs p {
+          
+        font-size: 15px ;
+      }
+  }
+
+  /*end media section*/
