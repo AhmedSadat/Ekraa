@@ -8,9 +8,9 @@ import {OurProductsComponent} from '../widgets/our-products/our-products.compone
 import {AboutComponent} from '../widgets/about/about.component';
 import {ContactUsComponent} from '../widgets/contact-us/contact-us.component';
 import {ProductsComponent} from '../widgets/products/products.component';
-
+import {FooterComponent} from '../footer/footer.component'
 @NgModule({
-  declarations: [BaseComponent],
+  declarations: [BaseComponent,FooterComponent],
   imports: [
     CommonModule,
     WidgetsModule
