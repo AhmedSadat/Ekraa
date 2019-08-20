@@ -1,0 +1,41 @@
+
+
+.holder{
+
+
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        color: white;
+        margin-top: -2vw;
+        overflow-x: hidden;
+}
+
+
+
+
+
+.layer{
+        background-image: url("../../../assets/images/Mask_Group_1.png");
+        opacity: .7;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+}
+
+.item{
+  background-image: url("../../../assets/images/Component4–1.png") ;
+}
+
+.middle-item{
+  background-image: none;
+
+  color: #242121
+
+}

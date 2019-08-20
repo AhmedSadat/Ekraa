@@ -1,3 +1,3 @@
 git add . 
 git commit -am "commit $(pwd) " 
-git push origin master
+git push origin master -f 

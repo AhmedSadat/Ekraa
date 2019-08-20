@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
 
 import { AppComponent } from './app.component';
@@ -10,7 +11,7 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     FooterComponent
   ],
-  imports: [
+  imports: [NgxExtendedPdfViewerModule,
     BrowserModule,
   
   ],
