@@ -10,10 +10,10 @@ import { LessonsComponent } from './lessons/lessons.component';
 import { ProductsComponent } from './products/products.component';
 
 @NgModule({
-  declarations: [NavBarComponent, OurProductsComponent, AboutComponent, DescriptionComponent, ContactUsComponent, LessonsComponent, ProductsComponent],
+  declarations: [NavBarComponent, OurProductsComponent, AboutComponent, DescriptionComponent, ContactUsComponent, LessonsComponent],
   imports: [
     CommonModule
   ],
-  exports: [NavBarComponent, OurProductsComponent, AboutComponent, DescriptionComponent, ContactUsComponent, LessonsComponent, ProductsComponent]
+  exports: [NavBarComponent, OurProductsComponent, AboutComponent, DescriptionComponent, ContactUsComponent, LessonsComponent]
 })
 export class WidgetsModule { }

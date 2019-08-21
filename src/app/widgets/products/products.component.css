@@ -1,41 +1,148 @@
 
+.productBackground {
 
-.holder{
+    background-image: url('../../../assets/images/back.png');
+    width: 100%;
+    height: 371px ;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
 
+}
 
-        background-repeat: no-repeat;
-        background-position: 50% 0;
-        -ms-background-size: cover;
-        -o-background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        background-size: cover;
-        color: white;
-        margin-top: -2vw;
-        overflow-x: hidden;
+.content {
+
+  background-color: rgb(0,0,0,.4) ;
+  width: 251px ;
+  height: 88px;
+  position: absolute ;
+  bottom: 0 ;
+  border-bottom: 2px solid #F5F5F5
+
+}
+
+.content p {
+   
+  margin-top: 20px ;
+  text-align: center ;
+     font-size: 30px ;
+     /* font-weight: bold ; */
+     text-transform: uppercase;
+      color: #FFF8F8;
+
 }
 
 
-
-
-
-.layer{
-        background-image: url("../../../assets/images/Mask_Group_1.png");
-        opacity: .7;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+.product1 {
+     
+    
+    background-image: url('../../../assets/images/rec.png');
+    width: 100% ;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
 }
 
-.item{
-  background-image: url("../../../assets/images/Component4–1.png") ;
+.product1 h1 {
+
+  color: #FFF8F8; 
+  margin-top: 10px;
 }
 
-.middle-item{
-  background-image: none;
+.product1 p {
 
-  color: #242121
+  color: #FFF8F8; 
+  margin-top: 10px;
+}
 
+.product1 img {
+
+  width:304px ; 
+  height:236px ;
+ 
+}
+
+.product2 {
+     
+    
+  background-image: url('../../../assets/images/unshow.png');
+  width: 100% ;
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+.product2 h1 {
+
+color: black; 
+margin-top: 10px;
+}
+
+.product2 p {
+
+color: black; 
+margin-top: 10px;
+}
+
+.product2 img {
+
+width:304px ; 
+height:236px ;
+
+}
+
+.product3 {
+     
+    
+  background-image: url('../../../assets/images/rec.png');
+  width: 100% ;
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+.product3 h1 {
+
+color: #FFF8F8; 
+margin-top: 10px;
+}
+
+.product3 p {
+
+color: #FFF8F8; 
+margin-top: 10px;
+}
+
+.product3 img {
+
+width:304px ; 
+height:236px ;
+
+}
+
+@media (min-width : 0px) and (max-width : 768px){
+
+  .product1 h1 {
+     text-align: center ;
+  }
+
+  .product2 h1 {
+    text-align: center ;
+ }
+
+ .product3 h1 {
+  text-align: center ;
+}
 }

@@ -1,0 +1,79 @@
+
+
+.segment1{
+
+     background-image: url('../../../assets/images/mask1.png');
+     height: 381px;
+     width: 100%;
+     overflow-x: hidden;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     overflow: hidden;
+   
+     
+}
+
+.segment2{
+     background-image: url('../../../assets/images/mask2.png');
+     height: 582px;
+     width: 100%;
+     overflow-x: hidden;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     color: #FFF8F8 ;
+
+}
+
+.segment2 h1 {
+
+     margin-top: 50px ;
+     margin-bottom: 50px ;
+     font-size: 60px ;
+}
+
+.segment2 p {
+
+     margin-top: 50px ;
+     margin-bottom: 50px ;
+     font-size: 20px ;
+     
+}
+
+.ejaza {
+
+     
+     /* margin : 200px auto ; */
+     
+   
+     background-color: rgb(0,0,0,.4) ;
+     width: 251px ;
+     height: 88px;
+     position: absolute ;
+     bottom: 0 ;
+     border-bottom: 2px solid #F5F5F5
+     
+}
+
+.ejaza p {
+
+     text-align: center ;
+     font-size: 50px ;
+     /* font-weight: bold ; */
+     text-transform: uppercase;
+      color: #FFF8F8;
+}
+
+
+@media (min-width : 0px) and (max-width : 768px){
+
+     .segment2 h1,p{
+          text-align: center ;
+     }
+   
+   }

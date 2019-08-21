@@ -8,9 +8,11 @@ import {OurProductsComponent} from '../widgets/our-products/our-products.compone
 import {AboutComponent} from '../widgets/about/about.component';
 import {ContactUsComponent} from '../widgets/contact-us/contact-us.component';
 import {ProductsComponent} from '../widgets/products/products.component';
+import {EjazaComponent} from '../widgets/ejaza/ejaza.component'
 import {FooterComponent} from '../footer/footer.component'
+
 @NgModule({
-  declarations: [BaseComponent,FooterComponent],
+  declarations: [BaseComponent,FooterComponent,EjazaComponent,ProductsComponent],
   imports: [
     CommonModule,
     WidgetsModule
