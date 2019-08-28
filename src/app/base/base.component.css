@@ -12,3 +12,70 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.first , .second {
+  display: none ;
+}
+
+@media (min-width : 0px) and (max-width : 768px) {
+ 
+                  .masthead {
+                        
+                    background-image: url('../../assets/images/mob.png');
+                      
+                  }
+                   
+                .masthead img {
+                    margin-bottom: 0px ;
+                }
+
+                .masthead input {
+                  margin-top: 110px ;
+                  width: 100%;
+                  padding: 10px ;
+                  border-radius: 20px ;
+                  background: rgba(0, 0, 0, 0.6);
+                  outline: none ;
+                  border: none ;
+                  color: #FFF8F8 ;
+                }
+
+                ::-webkit-input-placeholder {
+                  text-align: center;
+                  color: #FFF8F8 ;
+               }
+               
+               :-moz-placeholder { /* Firefox 18- */
+                  text-align: center;
+                  color: #FFF8F8 ;  
+               }
+               
+               ::-moz-placeholder {  /* Firefox 19+ */
+                  text-align: center; 
+                  color: #FFF8F8 ; 
+               }
+               
+               :-ms-input-placeholder {  
+                  text-align: center; 
+                  color: #FFF8F8;
+               }
+
+                .head1 , .head2 {
+                        display: none ;
+                }
+
+                .first {
+
+                  display: block ;
+                  font-size: 60px ;
+                  margin-top: -70px ;
+                  color: #FFF8F8 ;
+                }
+
+                .second {
+                  display: block ;
+                  font-size: 35px;
+                  color: #FFF8F8 ;
+                }
+               
+}
