@@ -5,6 +5,8 @@ import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BaseModule} from './base/base.module';
+import { NgwWowModule } from 'ngx-wow';
+
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { BaseModule} from './base/base.module';
   imports: [NgxExtendedPdfViewerModule,
     BrowserModule,
     AppRoutingModule,
-    BaseModule
+    BaseModule,
+    NgwWowModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
