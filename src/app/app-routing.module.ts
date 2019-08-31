@@ -14,7 +14,11 @@ const routes: Routes = [
 export default routes ;
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    
+    RouterModule.forRoot(routes)
+  
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

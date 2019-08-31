@@ -28,11 +28,11 @@ export class DescriptionComponent implements OnInit {
   }
 
   constructor(private router: Router, private wowService: NgwWowService){
-    this.router.events.pipe(
-      filter(event => event instanceof NavigationEnd)
-  ).subscribe(() => {
-    this.wowService.init();
-  });
+  //   this.router.events.pipe(
+  //     filter(event => event instanceof NavigationEnd)
+  // ).subscribe(() => {
+  //   this.wowService.init();
+  // });
       
 
   }

@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BaseModule} from './base/base.module';
 import { NgwWowModule } from 'ngx-wow';
+import { RouterModule, Routes } from '@angular/router';
 
 
 

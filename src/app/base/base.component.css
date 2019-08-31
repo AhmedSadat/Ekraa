@@ -1,17 +1,60 @@
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .masthead {
   height: 100vh;
   width: 100vw;
   right: 0;
-
-  overflow-x: hidden;
-
-
-  background-image: url('../../assets/images/home.png');
+  position: relative;
+  overflow: hidden;
+  background-image: url('../../assets/images/mob.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+ 
 }
+
+.bekraa{
+
+  width: 100%;
+  height: 450px;
+  background-image: url('../../assets/images/ekraa.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  
+}
+
+.tako {
+
+  display: flex ;
+  justify-content: center ;
+  align-content: center ;
+  flex-direction: column ;
+ 
+}
+
+
+.head1 {
+
+  margin-top: 70px ;
+}
+
+.head2 {
+
+  margin-left: 55px ;
+}
+
+
+
+
+
+
+
 
 .first , .second {
   display: none ;
@@ -23,6 +66,14 @@
                         
                     background-image: url('../../assets/images/mob.png');
                       
+                  }
+
+                 .imc {
+                    display: none ;
+                  }
+
+                  .khra{
+                    display: none ;
                   }
                    
                 .masthead img {
@@ -78,4 +129,19 @@
                   color: #FFF8F8 ;
                 }
                
+}
+
+@media (min-width : 768px) and (max-width : 991px){
+
+      .bekraa {
+        background-image: url('../../assets/images/word.png');
+        height: 397px;
+        width: 450px;
+        overflow-x: hidden;
+      }
+
+      .head1{
+        margin-top: 110px
+      }
+
 }
