@@ -22,7 +22,8 @@ export class BaseComponent implements OnInit {
   //  let xsize:number = parent.style.backgroundPositionX ;
    parent.style.backgroundPositionX = - event.pageX/15  + "px";
    parent.style.backgroundPositionY = - event.pageY/8 + "px";
-                  
+ 
+                   
   }
 
   @HostListener('mouseleave')

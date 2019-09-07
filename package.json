@@ -23,6 +23,7 @@
     "core-js": "^2.5.4",
     "cors": "^2.8.5",
     "ng-animate": "^0.3.4",
+    "ng2-tooltip-directive": "^2.1.9",
     "ngx-extended-pdf-viewer": "^1.1.0",
     "ngx-wow": "^2.0.1",
     "rxjs": "~6.3.3",

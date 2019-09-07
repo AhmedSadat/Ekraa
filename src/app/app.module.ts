@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { BaseModule} from './base/base.module';
 import { NgwWowModule } from 'ngx-wow';
 import { RouterModule, Routes } from '@angular/router';
+import { ContactsComponent } from './widgets/contacts/contacts.component';
 
 
 
@@ -18,8 +19,7 @@ import { RouterModule, Routes } from '@angular/router';
     BrowserModule,
     AppRoutingModule,
     BaseModule,
-    NgwWowModule
-    
+    NgwWowModule,    
   ],
   providers: [],
   bootstrap: [AppComponent]
