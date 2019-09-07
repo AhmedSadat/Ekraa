@@ -20,8 +20,8 @@ export class BaseComponent implements OnInit {
    const parent : HTMLElement =  document.getElementById('bekraa');
 
   //  let xsize:number = parent.style.backgroundPositionX ;
-   parent.style.backgroundPositionX = - event.pageX/15  + "px";
-   parent.style.backgroundPositionY = - event.pageY/8 + "px";
+  //  parent.style.backgroundPositionX = - event.pageX/15  + "px";
+  //  parent.style.backgroundPositionY = - event.pageY/8 + "px";
  
                    
   }
@@ -29,9 +29,12 @@ export class BaseComponent implements OnInit {
   @HostListener('mouseleave')
   onMouseLeave() {
     const parent : HTMLElement =  document.getElementById('bekraa');
-    parent.style.backgroundPositionX = "center" ;
-    parent.style.backgroundPositionY = "center" ;
-  }
+
+  //   parent.style.backgroundPositionX = "center" ;
+  //   parent.style.backgroundPositionY = "center" ;
+  //
+
+}
 
   
 
