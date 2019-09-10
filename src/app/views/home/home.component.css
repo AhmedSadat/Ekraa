@@ -32,9 +32,11 @@ html, body {
 }
 .khra{
   margin-top: 30px ;
-  border:  10px solid  black;
+  /* border:  10px solid  black; */
   float: left;
 }
+
+
 
 .tako {
 
