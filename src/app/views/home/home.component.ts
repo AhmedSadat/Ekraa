@@ -18,9 +18,9 @@ export  default class HomeComponent implements OnInit {
 
    const parent : HTMLElement =  document.getElementById('bekraa');
 
-  //  let xsize:number = parent.style.backgroundPositionX ;
-  //  parent.style.backgroundPositionX = - event.pageX/15  + "px";
-  //  parent.style.backgroundPositionY = - event.pageY/8 + "px";
+    let xsize  = parent.style.backgroundPositionX ;
+    parent.style.backgroundPositionX = - event.pageX/15  + "px";
+    parent.style.backgroundPositionY = - event.pageY/8 + "px";
 
 
   }
@@ -29,8 +29,8 @@ export  default class HomeComponent implements OnInit {
   onMouseLeave() {
     const parent : HTMLElement =  document.getElementById('bekraa');
 
-  //   parent.style.backgroundPositionX = "center" ;
-  //   parent.style.backgroundPositionY = "center" ;
+   parent.style.backgroundPositionX = "center" ;
+     parent.style.backgroundPositionY = "center" ;
   //
 
 }
