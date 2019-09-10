@@ -22,16 +22,14 @@ export  default class HomeComponent implements OnInit {
     parent.style.backgroundPositionX = - event.pageX/15  + "px";
     parent.style.backgroundPositionY = - event.pageY/8 + "px";
 
-
   }
 
   @HostListener('mouseleave')
   onMouseLeave() {
     const parent : HTMLElement =  document.getElementById('bekraa');
-
-   parent.style.backgroundPositionX = "center" ;
+ parent.style.backgroundPositionX = "center" ;
      parent.style.backgroundPositionY = "center" ;
-  //
+
 
 }
 

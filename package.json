@@ -22,6 +22,7 @@
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
     "cors": "^2.8.5",
+    "hover.css": "^2.3.2",
     "ng-animate": "^0.3.4",
     "ng2-tooltip-directive": "^2.1.9",
     "ngx-extended-pdf-viewer": "^1.1.0",

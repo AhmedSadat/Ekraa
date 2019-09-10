@@ -1,15 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BaseComponent} from './base.component';
-//import { ProductsComponent } from '../widgets/products/products.component';
+import { ProductsComponent } from '../widgets/products/products.component';
 //views
 import {ViewsModule} from '../views/views.module';
 import {
 
   ContactsComponent,
   HomeComponent,
-  LessonsComponent,
+  LessonsComponent
 } from '../views';
+import { EjazaComponent } from '../widgets/ejaza/ejaza.component';
+import { ContactUsComponent } from '../widgets/contact-us/contact-us.component';
 
 
 //--------
@@ -37,12 +39,16 @@ export const  routes:  Routes  = [
           component:  ContactsComponent
           },
           {
-          path:  'create',
-          component:  ContactsComponent
+          path:  'contact',
+          component:  ContactUsComponent
           },
           {
-          path:  'update',
-          component:  ContactsComponent
+          path:  'products',
+          component:  ProductsComponent
+          },{
+
+            path: "egaza",
+            component: EjazaComponent
           }
           ]
           }
@@ -53,7 +59,7 @@ export const  routes:  Routes  = [
 @NgModule({
   imports: [
     
-    RouterModule.forRoot(routes)
+    RouterModule.forChild(routes)
 
   ],
   exports: [RouterModule]

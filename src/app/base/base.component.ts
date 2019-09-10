@@ -14,27 +14,28 @@ export class BaseComponent implements OnInit {
   ngOnInit() {
   }
 
-  @HostListener('mousemove', ['$event'])
-  onMouseMove(event: MouseEvent) {
+//   @HostListener('mousemove', ['$event'])
+//   onMouseMove(event: MouseEvent) {
     
-   const parent : HTMLElement =  document.getElementById('bekraa');
-
-  //  let xsize:number = parent.style.backgroundPositionX ;
-  //  parent.style.backgroundPositionX = - event.pageX/15  + "px";
-  //  parent.style.backgroundPositionY = - event.pageY/8 + "px";
+//    const parent : HTMLElement =  document.getElementById('bekraa');
+  
+//   //  console.log(parent) ;
+   
+//    parent.style.backgroundPositionX = - event.pageX/100  + "px";
+//    parent.style.backgroundPositionY = - event.pageY/100000 + "px";
  
                    
-  }
+//   }
 
-  @HostListener('mouseleave')
-  onMouseLeave() {
-    const parent : HTMLElement =  document.getElementById('bekraa');
+//   @HostListener('mouseleave')
+//   onMouseLeave() {
+//     const parent : HTMLElement =  document.getElementById('bekraa');
 
-  //   parent.style.backgroundPositionX = "center" ;
-  //   parent.style.backgroundPositionY = "center" ;
-  //
+//     parent.style.backgroundPositionX = "center" ;
+//     parent.style.backgroundPositionY = "center" ;
+  
 
-}
+// }
 
   
 
