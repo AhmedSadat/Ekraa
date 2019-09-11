@@ -152,3 +152,9 @@ textarea{
 ::placeholder {
   text-align: center ;
 }
+
+.contact-form button {
+
+  background-color: #FFF8F8 ;
+  color: black ;
+}

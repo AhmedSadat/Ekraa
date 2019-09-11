@@ -23,6 +23,7 @@
      height: 582px;
      width: 100%;
      overflow-x: hidden;
+     overflow-y: hidden;
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;

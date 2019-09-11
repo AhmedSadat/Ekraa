@@ -70,7 +70,7 @@
   margin-top: 10px;
 }
 
-.product1 span p {
+.product1  p {
 
   color: #FFF8F8;
   margin-top: 10px;
@@ -80,6 +80,7 @@
 
   width:304px ;
   height:236px ;
+  animation: rotation 8s infinite linear;
 
 }
 
@@ -105,12 +106,14 @@ margin-top: 10px;
 
 color: black;
 margin-top: 10px;
+
 }
 
 .product2 img {
 
 width:304px ;
 height:236px ;
+animation: rotation 8s infinite linear;
 
 }
 
@@ -142,6 +145,7 @@ margin-top: 10px;
 
 width:304px ;
 height:236px ;
+animation: rotation 8s infinite linear;
 
 }
 
@@ -158,4 +162,15 @@ height:236px ;
  .product3 h1 {
   text-align: center ;
 }
+}
+
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
