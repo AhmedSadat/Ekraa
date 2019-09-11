@@ -61,12 +61,3 @@ li{
     font-size:  8px;
   }
 }
-
-
-
-@media (min-width : 0px) and (max-width : 768px){
-  .pos-f-t{
-    top : 7vw;
-  }
- 
-}

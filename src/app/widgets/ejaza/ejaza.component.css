@@ -14,13 +14,13 @@
      justify-content: center;
      position: relative;
      overflow: hidden;
-   
-     
+
+
 }
 
 .segment2{
      background-image: url('../../../assets/images/mask2.png');
-     height: 582px;
+     height: auto;
      width: 100%;
      overflow-x: hidden;
      overflow-y: hidden;
@@ -43,22 +43,22 @@
      margin-top: 50px ;
      margin-bottom: 50px ;
      font-size: 20px ;
-     
+
 }
 
 .ejaza {
 
-     
+
      /* margin : 200px auto ; */
-     
-   
+
+
      background-color: rgb(0,0,0,.4) ;
      width: 251px ;
      height: 88px;
      position: absolute ;
      bottom: 0 ;
      border-bottom: 2px solid #F5F5F5
-     
+
 }
 
 .ejaza p {
@@ -76,5 +76,5 @@
      .segment2 h1,p{
           text-align: center ;
      }
-   
+
    }

@@ -2,7 +2,7 @@
 
 /* styling fullground  */
 .fullground {
- 
+
   background-image: url("../../../assets/images/shutterstock-519870802.png") ;
   background-repeat: no-repeat ;
   background-size: cover ;
@@ -137,24 +137,41 @@ textarea{
   padding: 30px ;
   display: flex ;
   justify-content: center ;
-  align-items: center; 
+  align-items: center;
 }
 
 
-::-webkit-input-placeholder { /* Edge */
-  text-align: center ;
-}
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
- text-align: center ;
-}
-
-::placeholder {
-  text-align: center ;
-}
 
 .contact-form button {
 
   background-color: #FFF8F8 ;
   color: black ;
+}
+
+
+@media (min-width: 768px) {
+
+  textarea{
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: 3px solid #A3A3A3;
+    height: 20vw
+
+  }
+}
+
+@media (min-width: 768px) {
+
+  textarea{
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: 3px solid #A3A3A3;
+    height: 20vw
+  }
+  .col-xs-6>span>p{
+    font-size: 2vw
+  }
 }

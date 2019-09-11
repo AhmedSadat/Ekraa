@@ -8,11 +8,8 @@
   src: url('../../../assets/fonts/HelveticaNeue.ttf') format('truetype')
 }
 
-
- body {
-  max-width: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden ;
+*{
+  font-family: teeez
 }
 
 .masthead {
@@ -20,7 +17,7 @@
   width: 100%;
   position: relative;
   overflow-x: hidden;
-  background-image: url('../../../assets/images/mob.png');
+  background-image: url('../../../assets/images/homeUse.png');
   background-size: cover;
   background-position: center;
 
@@ -36,7 +33,19 @@
   background-repeat: no-repeat;
 
 
+@font-face {
+  font-family: "teeez";
+  src: url('../../../assets/fonts/Helvetica-Neu-Bold.ttf') format('truetype')
+}
 
+@font-face {
+  font-family: "teeez2";
+  src: url('../../../assets/fonts/HelveticaNeue.ttf') format('truetype')
+}
+
+*{
+  font-family: teeez
+}
 
 }
 .khra{
@@ -97,9 +106,9 @@
                     margin-bottom: 0px ;
                 }
 
-               
 
-            
+
+
 
                 .first {
 

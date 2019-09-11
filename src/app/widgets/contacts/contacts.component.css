@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "teeez";
+  src: url('../../../assets/fonts/Helvetica-Neu-Bold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: "teeez2";
+  src: url('../../../assets/fonts/HelveticaNeue.ttf') format('truetype')
+}
+
+*{
+  font-family: teeez
+}
 .full{
 
     background-image: url("../../../assets/images/kid.png");
@@ -39,12 +52,16 @@
 
       background-color: rgba(0, 0, 0, 0.3) ;
       position: absolute ;
-      top: 0 ;     
+      top: 0 ;
       width: 1185px ;
       height: 400px;
       color: white ;
       padding: 40px ;
 
+}
+
+.container>span{
+    text-align: left;
 }
 
 .mask {
@@ -63,7 +80,7 @@
 
 .control {
     height: 256px;
-    width: 621px ;
+    width: 60vw ;
     position: absolute ;
     right: 10px ;
 }
@@ -72,3 +89,62 @@
 
 
 
+@media (min-width : 0px) and (max-width : 1174px) {
+
+
+  .content {
+
+        background-color: rgba(0, 0, 0, 0.3) ;
+        position: relative;
+        top: 0 ;
+        width: 100% ;
+        height: 100%;
+        text-overflow: ellipsis;
+        margin: 0;
+        color: white ;
+
+  }
+  .row>span{
+    font-size:  1.5vw;
+  }
+
+  .control {
+      word-wrap:normal;
+      top: 0;
+      height: 900px;
+      width: 60%;
+      position: absolute ;
+      display: block;
+      line-height: 1em;
+
+  }
+
+  .control> span{
+
+      font-size: 1.5vw;
+
+  }
+
+}
+
+@media (max-width: 576px) {
+  .control {
+      word-wrap:normal;
+      top: 0;
+      height: 900px;
+      width: 80%;
+      position: absolute ;
+      display: block;
+      line-height: 1em;
+
+  }
+  .control> span{
+
+      font-size: 2.5vw;
+
+  }
+  .row>span{
+    font-size:  2.5vw;
+  }
+
+}
