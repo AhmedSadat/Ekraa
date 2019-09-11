@@ -20,7 +20,7 @@ export  default class HomeComponent implements OnInit {
 
     let xsize  = parent.style.backgroundPositionX ;
     parent.style.backgroundPositionX = - event.pageX/15  + "px";
-    parent.style.backgroundPositionY = - event.pageY/8 + "px";
+    parent.style.backgroundPositionY = - event.pageY/15 + "px";
 
   }
 
