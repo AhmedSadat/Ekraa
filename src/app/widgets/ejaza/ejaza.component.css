@@ -1,4 +1,14 @@
 
+@@font-face {
+  font-family:  "teeez4";
+  sec: url('../../../assets/fonts/Lintel-Regular.otf') format('opentype')
+}
+
+
+*{
+  font-family: teeez4
+}
+
 
 .segment1{
 

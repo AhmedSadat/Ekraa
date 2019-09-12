@@ -1,12 +1,23 @@
+
+@@font-face {
+  font-family:  "teeez4";
+  sec: url('../../../assets/fonts/Lintel-Regular.otf') format('opentype')
+}
+
+
+*{
+  font-family: teeez4
+}
+
 .des{
 
   background-image: url("../../../assets/images/Component4–1.png")  ;
-    
+
   background-size: cover;
   background-position: center ;
   background-repeat: no-repeat ;
     height: 100%;
-    width: 100% ; 
+    width: 100% ;
     /* padding: 40px ; */
     opacity: 1;
 }
@@ -18,15 +29,15 @@
   background-position: center ;
   background-repeat: no-repeat ;
     height: 100%;
-    width: 100% ; 
-    padding: 40px ;  
+    width: 100% ;
+    padding: 40px ;
     /* background: rgba(0, 0, 0, -.6) */
 
 }
 
 
 .des img {
-   
+
   margin-bottom: 10px ;
 
 }

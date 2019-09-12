@@ -1,8 +1,19 @@
+
+@@font-face {
+  font-family:  "teeez4";
+  sec: url('../../assets/fonts/Lintel-Regular.otf') format('opentype')
+}
+
+
+*{
+  font-family: teeez4
+}
+
 .footer {
     background-color: #343334;
     padding: 50px ;
     color: #fff8f8;
-   
+
 }
 
 /*start row1section*/
@@ -14,11 +25,11 @@
 
     font-size: 40px ;
     margin-bottom: 10px ;
-        
+
 }
 
 .row1Content p {
-    font-size: 25px; 
+    font-size: 25px;
 }
 
 .footer .contacts {
@@ -37,17 +48,17 @@
     margin-bottom: 0.5em;
     margin-left: 0;
     background-image: linear-gradient(90deg, black, #fff8f8);
-    border-style: inset; 
-     border-width: 1px; 
+    border-style: inset;
+     border-width: 1px;
     width: 60% ;
     border-radius: 50% ;
     border-color: black ;
     padding: 1px ;
-    
+
 }
 
 .iedit {
-      
+
     margin-bottom: 100px ;
 }
 
@@ -71,23 +82,23 @@
 
         list-style-type: none;
         margin-top: 15px ;
-       
+
 }
 
 .col2Content p , span {
 
-    
+
     font-size: 20px ;
     /* margin-bottom: 40px ; */
     color: #CDCDCD ;
-    
+
 }
 
 .col2Content li p{
 
-    
+
     margin-bottom: .2rem ;
-    
+
 }
 
 
@@ -99,11 +110,11 @@
 /*end row2section*/
 
 /*start row2section*/
-   
+
  .col3Content p {
 
     font-size: 20px ;
-   
+
  }
 
  .col3Content hr {
@@ -113,13 +124,13 @@
     margin-bottom: 0.5em;
     margin-left: 0;
     background-image: linear-gradient(90deg, black, #fff8f8);
-    border-style: inset; 
-     border-width: 1px; 
+    border-style: inset;
+     border-width: 1px;
     width: 60% ;
     border-radius: 50% ;
     border-color: black ;
     padding: 1px ;
-    
+
 }
 
 .col3Content .socialMedia {
@@ -138,7 +149,7 @@
 
 
 
-    
+
     background-color: #484848 ;
     padding: 30px ;
     width: 100% ;
@@ -152,13 +163,13 @@
 @media (min-width : 0px) and (max-width : 768px){
 
     .row1Content p{
-         
+
         line-height: 30px ;
 
     }
 
     .iedit p,span {
-        
+
         font-size: 14px ;
     }
 
@@ -169,27 +180,27 @@
     .col2Content h4 {
         margin-top: 20px ;
     }
-  
+
   }
-  
+
   @media (min-width: 768px) and (max-width:991px) {
-  
-      
+
+
     .iedit p,span {
-        
+
         font-size: 18px ;
     }
-    
+
   }
-  
+
   @media (min-width: 992px) and (max-width:1199px) {
-  
-  
+
+
   }
-  
+
   @media (min-width : 1200px){
-  
-  
+
+
   }
 
   @media (min-width : 992px) and (max-width : 1164px){
@@ -202,7 +213,7 @@
   @media (min-width : 1200px) and (max-width : 1245px){
 
       .col3Content .contactUs p {
-          
+
         font-size: 15px ;
       }
   }

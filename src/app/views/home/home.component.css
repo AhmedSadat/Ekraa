@@ -8,6 +8,24 @@
   src: url('../../../assets/fonts/HelveticaNeue.ttf') format('truetype')
 }
 
+@@font-face {
+  font-family:  "teeez3";
+  sec: url('../../../assets/fonts/AdobeArabicRegualr.otf') format('opentype')
+}
+
+@@font-face {
+  font-family:  "teeez4";
+  sec: url('../../../assets/fonts/Lintel-Regular.otf') format('opentype')
+}
+
+
+*{
+  font-family: teeez4
+}
+
+
+
+
 *{
   font-family: teeez
 }
@@ -32,22 +50,13 @@
   background-position: center;
   background-repeat: no-repeat;
 
-
-@font-face {
-  font-family: "teeez";
-  src: url('../../../assets/fonts/Helvetica-Neu-Bold.ttf') format('truetype')
-}
-
-@font-face {
-  font-family: "teeez2";
-  src: url('../../../assets/fonts/HelveticaNeue.ttf') format('truetype')
 }
 
 *{
-  font-family: teeez
+  font-family: teeez4
 }
 
-}
+
 .khra{
   margin-top: 30px ;
   /* border:  10px solid  black; */
@@ -67,7 +76,7 @@
 
 
 .head1 {
-  font-family: 'teeez2';
+  font-family: teeez3;
   margin-top: 70px ;
 }
 
