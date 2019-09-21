@@ -61,7 +61,7 @@
   margin-top: 30px ;
   /* border:  10px solid  black; */
   float: left;
-}
+}font-family: teeez4
 
 
 
@@ -122,10 +122,14 @@
                 .first {
 
                   display: inline-block ;
-                  font-size: 30px ;
+                  font-size: 42px ;
 
                   /* margin-top: -70px ; */
                   color: #FFF8F8 ;
+                  font-family: teeez4;
+
+                  text-align: center;
+                  margin-left: 15vw;
                 }
 
                 .second {

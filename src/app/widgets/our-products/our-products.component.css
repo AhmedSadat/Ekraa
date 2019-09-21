@@ -44,10 +44,10 @@
 
 .subjects img {
 
-  animation-name: example;
+  /*animation-name: example;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;*/
 }
 
 .title{
