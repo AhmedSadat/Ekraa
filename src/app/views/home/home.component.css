@@ -3,24 +3,36 @@
   src: url('../../../assets/fonts/Helvetica-Neu-Bold.ttf') format('truetype')
 }
 
+
+@font-face {
+  font-family: mainWord;
+  src: url('../../../assets/fonts/arabicFont2.ttf') format('truetype')
+}
+
+@font-face {
+  font-family:  pinkThing;
+  src: url('../../../assets/fonts/pink.otf') format('opentype')
+}
+
+
 @font-face {
   font-family: "teeez2";
   src: url('../../../assets/fonts/HelveticaNeue.ttf') format('truetype')
 }
 
-@@font-face {
+@font-face {
   font-family:  "teeez3";
-  sec: url('../../../assets/fonts/AdobeArabicRegualr.otf') format('opentype')
+  src: url('../../../assets/fonts/AdobeArabicRegualr.otf') format('opentype')
 }
 
-@@font-face {
+@font-face {
   font-family:  "teeez4";
-  sec: url('../../../assets/fonts/Lintel-Regular.otf') format('opentype')
+  src: url('../../../assets/fonts/Lintel-Regular.otf') format('opentype')
 }
 
 
-*{
-  font-family: teeez4
+p{
+  font-family: mainWord
 }
 
 
@@ -38,6 +50,7 @@
   background-image: url('../../../assets/images/homeUse.png');
   background-size: cover;
   background-position: center;
+
 
 }
 
@@ -61,7 +74,8 @@
   margin-top: 30px ;
   /* border:  10px solid  black; */
   float: left;
-}font-family: teeez4
+  font-family: mainWord;
+}
 
 
 
@@ -71,18 +85,22 @@
   justify-content: center ;
   align-content: center ;
   flex-direction: column ;
-
 }
 
 
 .head1 {
-  font-family: teeez3;
+  font-family: mainWord;
   margin-top: 70px ;
+  font-size: 65px;
+  font-weight: bolder;
+
+
 }
 
 .head2 {
 
   margin-left: 55px ;
+
 }
 
 
@@ -92,7 +110,9 @@
 }
 
 @media (min-width : 0px) and (max-width : 768px) {
-
+                  .container{
+                    text-align: center;
+                  }
                   .masthead {
 
                     background-image: url('../../../assets/images/mob.png');
@@ -122,14 +142,13 @@
                 .first {
 
                   display: inline-block ;
-                  font-size: 42px ;
+                  font-size: 65px ;
 
                   /* margin-top: -70px ; */
                   color: #FFF8F8 ;
-                  font-family: teeez4;
+                  font-family: mainWord;
 
                   text-align: center;
-                  margin-left: 15vw;
                 }
 
                 .second {

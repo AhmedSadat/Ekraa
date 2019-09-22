@@ -1,12 +1,17 @@
 
-@@font-face {
-  font-family:  "teeez4";
-  sec: url('../../../assets/fonts/Lintel-Regular.otf') format('opentype')
+@font-face {
+  font-family:  teeez4;
+  src: url('../../../assets/fonts/Lintel-Regular.otf') format('opentype')
+}
+
+@font-face {
+  font-family:  pinkThing;
+  src: url('../../../assets/fonts/pink.otf') format('opentype')
 }
 
 
 *{
-  font-family: teeez4
+  font-family: "teeez4"
 }
 
 .productBackground {
@@ -93,7 +98,8 @@ p{
 
   width:304px ;
   height:236px ;
-  animation: rotation 6s infinite linear;
+  /*animation: rotation 6s infinite linear;*/
+
 
 }
 
@@ -128,7 +134,7 @@ margin-top: 10px;
 
 width:304px ;
 height:236px ;
-animation: rotation 6s infinite linear;
+/*animation: rotation 6s infinite linear;*/
 
 }
 
@@ -160,7 +166,7 @@ margin-top: 10px;
 
 width:304px ;
 height:236px ;
-animation: rotation 6s infinite linear;
+/*animation: rotation 6s infinite linear;*/
 
 }
 
