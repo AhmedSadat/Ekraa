@@ -1,0 +1,32 @@
+<p>
+{{BooksName}}
+
+{{Pages.source}}
+
+</p>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+<div class="container" >
+
+  <div class="row">
+    <div class="col-sm-2">
+      <i (click)="selectPrevious()" class="fas fa-angle-double-left"></i>
+
+    </div>
+
+    <div class="col-sm-8">
+
+    <ng-container *ngIf="Pages.type==='png'">
+
+        <img  [src]="Pages.source" width="650px" />
+     </ng-container>
+
+     </div>
+
+     <div class="col-sm-2">
+       <i (click)="selectNext()" class="fas fa-angle-double-right"></i>
+
+     </div>
+ </div>

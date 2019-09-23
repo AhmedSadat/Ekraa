@@ -1,0 +1,47 @@
+{
+   "BookName":"Ekraa",
+   "Version":"1.0",
+   "Language":"English",
+   "pages":[
+      {
+         "page":1,
+         "type":"png",
+         "source":"../../assets/lessons/Ekraa final.png"
+      },
+      {
+         "page":2,
+         "type":"png",
+         "source":"../../assets/lessons/Ekraa final10.png"
+      },
+      {
+         "page":3,
+         "type":"png",
+         "source":"../../assets/lessons/Ekraa final11.png"
+      },
+      {
+         "page":4,
+         "type":"template",
+         "source":"../../assets/lessons/Ekraa final12.png"
+      },
+      {
+         "page":5,
+         "type":"png",
+         "source":"../../assets/lessons/Ekraa final13.png"
+      },
+      {
+         "page":6,
+         "type":"png",
+         "source":"../../assets/lessons/Ekraa final14.png"
+      },
+      {
+         "page":7,
+         "type":"png",
+         "source":"../../assets/lessons/Ekraa final15.png"
+      },
+      {
+         "page":8,
+         "type":"png",
+         "source":"../../assets/lessons/Ekraa final16.png"
+      }
+   ]
+}
