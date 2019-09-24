@@ -8,10 +8,10 @@ import  data_json  from '../../Book.json';
 })
 export class TestComponent implements OnInit {
 
-  const index=0;
+   index=0;
 
-  const Pages={}
-  const BooksName=data_json.BookName
+   Pages={}
+   BooksName=data_json.BookName
 
   constructor() {
 
