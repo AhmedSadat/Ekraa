@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import  data_json  from '../../Book.json';
+import  * as data_json  from '../../Book.json';
 
 @Component({
   selector: 'app-test',
