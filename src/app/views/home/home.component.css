@@ -36,14 +36,14 @@ html,body{
 
 
 p{
-  font-family: mainWord
+  font-family: mainWord , Arial, Helvetica, sans-serif
 }
 
 
 
 
 *{
-  font-family: teeez
+  font-family: teeez , Arial, Helvetica, sans-serif
 }
 
 .masthead {
@@ -70,7 +70,7 @@ p{
 }
 
 *{
-  font-family: teeez4
+  font-family: teeez4 , Arial, Helvetica, sans-serif
 }
 
 
@@ -78,7 +78,7 @@ p{
   margin-top: 30px ;
   /* border:  10px solid  black; */
   float: left;
-  font-family: mainWord;
+  font-family: mainWord , Arial, Helvetica, sans-serif;
 }
 
 
@@ -150,7 +150,7 @@ p{
 
                   /* margin-top: -70px ; */
                   color: #FFF8F8 ;
-                  font-family: mainWord;
+                  font-family: mainWord  , Arial, Helvetica, sans-serif;
 
                   text-align: center;
                 }
