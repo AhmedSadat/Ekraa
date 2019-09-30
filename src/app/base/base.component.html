@@ -2,7 +2,7 @@
 <section >
 
 
-  <router-outlet></router-outlet>
+  <router-outlet (activate)="onActivate($event)" ></router-outlet>
 
   <app-footer></app-footer>
 
