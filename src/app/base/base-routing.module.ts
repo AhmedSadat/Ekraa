@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BaseComponent} from './base.component';
 import { ProductsComponent } from '../widgets/products/products.component';
@@ -49,6 +49,9 @@ export const  routes:  Routes  = [
 
             path: "egaza",
             component: EjazaComponent
+          }, {
+            path:'lesson',
+            component:LessonsComponent
           }
           ]
           }

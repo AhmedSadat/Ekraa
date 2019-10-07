@@ -11,9 +11,11 @@ import { ContactsComponent } from './widgets/contacts/contacts.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
+ 
   ],
   imports: [NgxExtendedPdfViewerModule,
     BrowserModule,
